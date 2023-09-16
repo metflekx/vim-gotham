@@ -130,11 +130,11 @@ call s:Col('Visual', '', 'base3')
 
 " Easy-to-guess code elements.
 call s:Col('Comment', 'blue')
-call s:Col('String', 'green')
-call s:Col('Number', 'red')
+call s:Col('String', 'red')
+call s:Col('Number', 'blue')
 call s:Col('Statement', 'base5')
 call s:Col('Special', 'orange')
-call s:Col('Identifier', 'orange')
+call s:Col('Identifier', 'cyan')
 
 " Constants, Ruby symbols.
 call s:Col('Constant', 'magenta')
@@ -166,7 +166,7 @@ call s:Col('VertSplit', 'blue', s:linenr_background)
 call s:Col('StatusLineNC', 'blue', 'base2')
 
 " Matching parenthesis.
-call s:Col('MatchParen', 'base6', 'red')
+call s:Col('MatchParen', 'base6', 'orange')
 
 " Special keys, e.g. some of the chars in 'listchars'. See ':h listchars'.
 call s:Col('SpecialKey', 'base3')
